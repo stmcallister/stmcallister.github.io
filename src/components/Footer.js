@@ -9,7 +9,7 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>&copy; Copyright 2018 Scott McAllister</li>
+          <li>&copy; Copyright 2019 Scott McAllister</li>
           <li>
             Design by{" "}
             <a title="Styleshout" href="http://www.styleshout.com/">
@@ -17,7 +17,7 @@ const Footer = () => (
             </a>
           </li>
           <li>
-            Desert Stars photograph by Geoffrey McAllister
+            Banner photograph by Scott McAllister in Seattle, WA
           </li>
         </ul>
       </div>
