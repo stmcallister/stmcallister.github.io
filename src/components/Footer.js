@@ -9,7 +9,7 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>&copy; Copyright 2021, Scott McAllister</li>
+          <li>&copy; Copyright 2022, Scott McAllister</li>
           <li>
             Design by{" "}
             <a title="Styleshout" href="http://www.styleshout.com/">
