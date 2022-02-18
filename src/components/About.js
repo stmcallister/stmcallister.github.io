@@ -1,6 +1,6 @@
 import React from "react";
 
-import profilePic from "../assets/images/scott-mcallister-circle.png";
+import profilePic from "../assets/images/scott-mcallister-kcdc-2021-circle.png";
 
 const About = () => (
   <section id="about">
@@ -16,7 +16,9 @@ const About = () => (
           of technologies. Along the way, I also discovered I loved to write, and ultimately teach.
           Now I am helping others learn about a wide range of development technologies. When I'm not coding, writing or 
           speaking I enjoy long walks with my wife, skipping rocks with my 
-          kids, and I'm happy whenever Real Salt Lake can manage a win.
+          kids, and I'm happy whenever Seattle Sounders FC, Manchester City, St. Louis Cardinals, Seattle Mariners, Chicago Bulls, Seattle 
+          Storm, Seattle Seahawks, OL Reign FC, St. Louis Blues, Seattle Kraken, Barcelona, Fiorentina, Borussia Dortmund or Mainz 05 can 
+          manage a win.
         </p>
         <div className="row">
           <div className="columns contact-details">

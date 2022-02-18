@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <meta name="author" description={siteMetadata.author} />
+      <meta name="author" description="Scott McAllister" />
       <link
         rel="stylesheet"
         type="text/css"
@@ -16,7 +16,6 @@ const TemplateWrapper = ({ children }) => (
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      <title>{siteMetadata.title}</title>
       <link rel="icon" href="../assets/favicon.png" type="image/x-icon"/>
     </Helmet>
     {children()}

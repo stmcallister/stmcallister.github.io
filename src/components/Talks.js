@@ -11,6 +11,29 @@ const Talks = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
+          <h3>Reduce System Fragility with Terraform</h3>
+          <p className="info">
+            Operations as Code
+            <span>&bull;</span>
+            DevOps
+          </p>
+          <p>
+            As infrastructure stacks grow increasingly more complex and involve an ever-growing 
+            number of services and systems there are a lot of opportunities for error and misconfiguration. 
+            To provide more system stability teams have looked to abstract configuration to its own 
+            layer of code. This concept of configuring infrastructure as code is gaining traction 
+            throughout the industry for a variety of reasons. It's fast, consistent, reduces errors, 
+            self-documentation, and did I mention it's fast? Tools such as Terraform from HashiCorp 
+            have emerged as one of the leading ways to declaratively configure technology stacks.
+
+            In this talk you'll gain an understanding of the benefits of Infrastructure as Code in 
+            general, and of using Terraform specifically. You'll be introduced to how Terraform works, 
+            what the code looks like, and how to get started.
+          </p>
+        </div>
+      </div>      
+      <div className="row item">
+        <div className="twelve columns">
           <h3>Built-In Testing in Go is More Than Just Passable</h3>
           <p className="info">
             Go
