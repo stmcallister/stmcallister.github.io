@@ -3,7 +3,8 @@ import {
   FaGithub,
   FaTwitter,
   FaLinkedin,
-  FaDev
+  FaDev,
+  FaMastodon
 } from "react-icons/fa";
 // https://gorangajic.github.io/react-icons/fa.html
 
@@ -12,6 +13,11 @@ const SocialLinks = () => (
     <li>
       <a href="https://twitter.com/stmcallister">
         <FaTwitter />
+      </a>
+    </li>
+    <li>
+      <a href="https://techhub.social/@stmcallister">
+        <FaMastodon />
       </a>
     </li>
     <li>
