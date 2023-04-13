@@ -9,16 +9,7 @@ const Banner = () => (
         I'm a Seattle based <span>speaker</span>,&nbsp;
          <span>writer</span>, <span>teacher</span> and <span>full-stack developer</span> helping developers learn more about
         their craft around the
-        globe. Let's
-        <a className="smoothscroll" href="#about">
-          {" "}
-          start scrolling
-        </a>{" "}
-        and learn more
-        <a className="smoothscroll" href="#about">
-          {" "}
-          about me
-        </a>.
+        globe.
       </h3>
       <hr />
       <SocialLinks />

@@ -13,7 +13,7 @@ const Talks = () => (
         <div className="twelve columns">
           <h3>Reduce System Fragility with Terraform</h3>
           <p className="info">
-            Operations as Code
+            Infrastructure as Code
             <span>&bull;</span>
             DevOps
           </p>
@@ -29,6 +29,44 @@ const Talks = () => (
             In this talk you'll gain an understanding of the benefits of Infrastructure as Code in 
             general, and of using Terraform specifically. You'll be introduced to how Terraform works, 
             what the code looks like, and how to get started.
+          </p>
+        </div>
+      </div>            
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Modules, Loops and More: How to Scale with Terraform</h3>
+          <p className="info">
+            Infrastructure as Code
+            <span>&bull;</span>
+            DevOps
+          </p>
+          <p>
+            Terraform has become vital to your team's workflow for managing your infrastructure. However, as 
+            your infrastructure has grown your code has become more complex, needlessly messy, and harder to 
+            manage. In this talk we explore ways to simplify your infrastructure code even while you add more 
+            resources to your infrastructure. We'll dive into advanced features in Terraform such as modules, 
+            workspaces, for_loops, and data sources to build reusable, scalable infrastructure. By the end of 
+            this talk, you will have a solid understanding of how to use Terraform to scale infrastructure in 
+            a reliable and efficient way.
+          </p>
+        </div>
+      </div>      
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>What the Heck Is HTTP?</h3>
+          <p className="info">
+            Network
+            <span>&bull;</span>
+            Development
+          </p>
+          <p>
+            You see it on the front of URLs. You know that it's important to APIs. When you write applications 
+            that are connecting to services on other machines you're using it. So you're likely using it in everything 
+            you build. But, what the heck is HTTP, really? 
+
+            In this talk, we'll dive into the mechanics of HTTP starting from requests & responses, diving into 
+            nouns & verbs, and going deep into the mechanics of how authentication works over the protocol. Come 
+            join us as we learn all about something that most of us use everyday.
           </p>
         </div>
       </div>      
@@ -53,24 +91,7 @@ const Talks = () => (
           </p>
         </div>
       </div>      
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>Why Loop in JavaScript When You Can Map, Reduce or Filter?</h3>
-          <p className="info">
-            JavaScript
-            <span>&bull;</span>
-            Functional Intro
-          </p>
-          <p>
-            Traditionally, when developers see large arrays of data their "go to" 
-            tool for parsing and searching has been the for loop. But JavaScript 
-            provides a more declarative approach that can help you find what you're 
-            looking for in fewer lines of code that is cleaner, easier to read, and 
-            maintain. Come see how the map(), reduce(), and filter() functions can 
-            help you!
-          </p>
-        </div>
-      </div>      
+     
       <div className="row item">
         <div className="twelve columns">
           <h3>Flexbox + CSS Grid = Awesome!</h3>
@@ -95,7 +116,24 @@ const Talks = () => (
           </p>
         </div>
       </div>
-
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Why Loop in JavaScript When You Can Map, Reduce or Filter?</h3>
+          <p className="info">
+            JavaScript
+            <span>&bull;</span>
+            Functional Intro
+          </p>
+          <p>
+            Traditionally, when developers see large arrays of data their "go to" 
+            tool for parsing and searching has been the for loop. But JavaScript 
+            provides a more declarative approach that can help you find what you're 
+            looking for in fewer lines of code that is cleaner, easier to read, and 
+            maintain. Come see how the map(), reduce(), and filter() functions can 
+            help you!
+          </p>
+        </div>
+      </div>      
       <div className="row item">
         <div className="twelve columns">
           <h3>Performance Cage Match: (Map, Filter and Reduce) vs For Loop</h3>
