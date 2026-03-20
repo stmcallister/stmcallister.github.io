@@ -1068,6 +1068,49 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
+/* c2. Author Section
+/* ------------------------------------------------------------------ */
+
+#author {
+  background: #1f1f1f;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+#author a,
+#author a:visited {
+  color: #fff;
+}
+#author a:hover,
+#author a:focus {
+  color: #11abb0;
+}
+#author h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#author h3 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  color: #ebeeee;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+#author p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+#author .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+#author .main-col {
+  padding-right: 5%;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 

@@ -8,5 +8,5 @@ export default defineConfig({
       usePolling: true
     }
   },
-  base: "/", // later change to "/stmcallister.github.io/" if needed
+  base: "/"
 });
