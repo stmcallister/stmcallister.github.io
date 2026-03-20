@@ -19,6 +19,11 @@ const Navigation = () => (
           Talks
         </a>
       </li>
+      <li>
+        <a className="smoothscroll" href="#author">
+          Books
+        </a>
+      </li>
     </ul>
   </nav>
 );
