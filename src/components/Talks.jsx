@@ -11,6 +11,49 @@ const Talks = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
+          <h3>GPU Sharing Done Right: Secrets, Security, and Scaling</h3>
+          <p className="info">
+            GPU
+            <span>&bull;</span>
+            Kubernetes
+            <span>&bull;</span>
+          </p>
+          <p>
+            Multi-tenant Kubernetes with GPU sharing is a compelling model for AI infrastructure, but it requires careful 
+            design to balance performance with security. This session shows how to build a secure and scalable environment 
+            where multiple teams can run GPU workloads without compromising isolation or access control. We’ll cover open 
+            source options like KAI Scheduler and vCluster and demonstrate how to integrate HashiCorp Vault for secret management 
+            and dynamic access policies, all within an architecture that lets teams feel like they have their own cluster—while 
+            behind the scenes, resources are efficiently pooled and shared.
+          </p>
+        </div>
+      </div>
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Are you covered? Falling in love with E2E Testing</h3>
+          <p className="info">
+            Kubernetes
+            <span>&bull;</span>
+            CI/CD
+            <span>&bull;</span>
+            Testing
+          </p>
+          <p>
+            The aim of automated testing is to give us confidence that our code will run as expected in every 
+            situation–especially when we push changes. Good tests will increase your team's velocity of developing 
+            new features and reduce the headache of bugs and outages.
+
+            As more applications shift to containerized environments, testing them becomes more complex. This session 
+            will clarify setting up and running automated tests in these environments. We'll discuss organizing tests 
+            in containers, handling dependencies, and maintaining consistent testing throughout the deployment process. 
+
+            The session will cover setting up containers for replicable test environments, Argo CD for GitOps automation, 
+            and utilizing k3s to manage complex, interdependent test workflows, ensuring consistent, reliable end-to-end testing.
+          </p>
+        </div>
+      </div>
+      <div className="row item">
+        <div className="twelve columns">
           <h3>Reduce System Fragility with Terraform</h3>
           <p className="info">
             Infrastructure as Code

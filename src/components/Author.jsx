@@ -58,6 +58,8 @@ export default function Author() {
                 <a href="https://www.linkedin.com/in/stmcallister/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 {" · "}
                 <a href="https://github.com/stmcallister" target="_blank" rel="noopener noreferrer">GitHub</a>
+                {" · "}
+                <a href="https://devrelpatterns.com" target="_blank" rel="noopener noreferrer">devrelpatterns.com</a>
               </p>
             </div>
           </div>
