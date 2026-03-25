@@ -53,7 +53,6 @@ export default function Author() {
           <div className="row">
             <div className="columns contact-details">
               <p className="address">
-                <a href="mailto:stmcallister@gmail.com">stmcallister@gmail.com</a>
                 <br />
                 <a href="https://www.linkedin.com/in/stmcallister/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 {" · "}

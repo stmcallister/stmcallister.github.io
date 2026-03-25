@@ -8,6 +8,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Author from "./components/Author";
+import Contact from "./components/Contact";
 import ReactGA from 'react-ga';
 const TRACKING_ID = "UA-123058118-1"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <About />
     <Resume />
     <Author />
+    <Contact />
     <Footer />
   </div>
 );
